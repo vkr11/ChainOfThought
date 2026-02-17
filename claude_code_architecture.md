@@ -1,5 +1,7 @@
 > **Important:**
 > This document is based on reverse-engineering Claude Code's official documentation and research from various sources across the web. It is intended as a reference for engineers and product managers designing agentic systems.
+>
+Who is Vikash? See my blog https://vrungta.substack.com/ or find me at https://www.linkedin.com/in/vrungta/ 
 
 # Inside Claude Code: The Architecture of an Autonomous Agent
 
