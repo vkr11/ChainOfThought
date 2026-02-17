@@ -27,6 +27,12 @@ We are entering the third era of LLM applications. We started with **Chatbots** 
 
 ***
 
+**Methodology: How I Know**
+
+This architecture was reverse-engineered from runtime transcripts, filesystem artifacts (`~/.claude`), behavioral stress-testing, Anthropic's public documentation and presentations, and my own experience building agentic systems.
+
+> **Disclaimer**: This is an external analysis. The actual internal architecture may differ — I welcome corrections.
+
 ## Table of Contents
 
 - [**Part 1: The Problem**](#part-1-the-problem--why-most-ai-agents-fail) — 8 failures of autonomous agents
