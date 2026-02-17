@@ -10,6 +10,23 @@
 
 ---
 
+***
+
+**The Shift: Why This Matters**
+
+We are entering the third era of LLM applications. We started with **Chatbots** (stateless Q&A), moved to **Workflows** (rigid, code-driven chains like n8n or LangChain), and are now arriving at **Autonomous Agents** (model-driven loops). Claude Code is the first mass-market example of this new architecture.
+
+**TL;DR — The 6 Architectural Shifts**
+
+*   **From Workflows to Loops**: Moving from "Code controls the Model" (DAGs) to "Model controls the Loop" (TAOR). The runtime is dumb; the model is the CEO.
+*   **The Harness is the Body**: The AI isn't just a prompt—it's wrapped in a local **Harness** that gives the "Brain" (LLM) a "Body" (Shell, Filesystem, Memory) to act in the real world.
+*   **Primitives > Integrations**: Instead of 100 brittle "Jira Plugins," the agent uses **Primitive Tools** (Bash, Grep, Edit) to compose *any* workflow a human engineer can execute.
+*   **Context Economy**: The architecture treats the context window as a scarce resource, protecting it with **auto-compaction**, **sub-agents**, and **semantic search** to prevent "Context Collapse."
+*   **Solving Universal Failures**: Runaway loops, amnesia, and permission roulette aren't bugs—they are structural constraints. This design turns them into managed features.
+*   **Co-Evolution**: The harness is designed to *shrink*. As models get smarter, hard-coded scaffolding (like planning steps) is deleted, making the architecture thinner over time.
+
+***
+
 ## Table of Contents
 
 - [**Part 1: The Problem**](#part-1-the-problem--why-most-ai-agents-fail) — 8 failures of autonomous agents
